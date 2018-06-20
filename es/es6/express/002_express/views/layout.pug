@@ -1,10 +1,21 @@
 doctype html
 html
   head
-    title= title
+    title title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-	 ul
-	 li this list
-	 li tag li
+    p= 'test paragraph'
+    input(type='text' name='name-input').class-input#id-input
+    - var condition = true
+    if condition
+        p= 'condition true'
+    
+    ul 
+        li text 1
+        li text 2
+        li text 3
+
+    - var list = ['1','2','3','4','5']
+    each value in list
+        p= value
     block content
