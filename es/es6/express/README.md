@@ -2,13 +2,14 @@
 ## Express I
 ### Install Express
 run command below :
-npm install express-generator -g
+`npm install express-generator -g`
 
 ### Create Project
 In this case use pug templating:
-express 001_express --view=pug
+`express 001_express --view=pug`
 
 shown like:
+```
    create : 001_express/
    create : 001_express/public/
    create : 001_express/public/javascripts/
@@ -35,5 +36,5 @@ shown like:
 
    run the app:
      $ DEBUG=001-express:* npm start
-
+```
 
