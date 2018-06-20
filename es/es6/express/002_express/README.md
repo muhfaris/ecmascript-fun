@@ -7,18 +7,22 @@ this is based of layout, basic design which using in every template.
 if you look in thats file, there you find description of `title` variabel.
 
 change to :
+
 `title this title website`
 
 ### input
 pug code :
+
 `input(type='text' name='name-input').class-input#id-input`
 
 html code:
+
 ``<input class="class-input" type="text" name="name-input" id="id-input">``
 
 
 ### variabel
 if create new variabel in `pug`, must use `-` before initialize.
+
 ```- var condition =  true```
 
 ```- var list = ['1','2','3','4','5']```
