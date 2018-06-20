@@ -19,5 +19,5 @@ html code:
 
 ### variabel
 if create new variabel in `pug`, must use `-` before initialize.
-`- var condition =  true`
-`- var list = ['1','2','3','4','5']`
+```- var condition =  true```
+```- var list = ['1','2','3','4','5']```
